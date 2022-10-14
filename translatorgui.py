@@ -10,8 +10,7 @@ root.title('Langauge Translator')
 root.geometry('530x330')
 root.maxsize(530,330)
 root.minsize(530,330)
-
-
+lll=[]
 def translate():
         language_1 = t1.get("1.0","end-1c")
         cl = choose_langauge.get()
